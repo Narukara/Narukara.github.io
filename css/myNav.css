@@ -1,0 +1,24 @@
+#myNav {
+    background-color: #eceeef;
+    padding: 10px;
+}
+
+#myNav > a {
+    display: inline;
+    margin: 0 auto auto;
+    font-size: xx-large;
+    color: #292b2c;
+    text-decoration: none;
+    font-family: "明兰", sans-serif;
+}
+
+#myNav > form {
+    float: right;
+    margin-top: 5px;
+}
+
+#footer {
+    text-align: center;
+    margin: 10px;
+    line-height: 1em;
+}
