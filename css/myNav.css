@@ -3,6 +3,17 @@
     padding: 10px;
 }
 
+#nav {
+    float: right;
+}
+
+.nav-text {
+    color: #292b2c;
+    text-decoration: none;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
 #title {
     display: inline;
     margin: 0 auto auto;
@@ -12,13 +23,9 @@
     font-family: "明兰", sans-serif;
 }
 
-#search > * {
-    float: right;
-    margin-top: 5px;
-}
-
 #footer {
     text-align: center;
-    margin: 10px;
-    line-height: 1em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    line-height: 0.5em;
 }

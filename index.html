@@ -8,26 +8,36 @@
 
     <title>Narukara的小站</title>
 
-    <meta name="description" content="Source code generated using layoutit.com">
-    <meta name="author" content="LayoutIt!">
-
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/myNav.css" rel="stylesheet">
 </head>
 
 <body>
-
 <div class="container-fluid">
     <div class="row" id="myNav">
         <div class="col-md-4">
             <a href="index.html" id="title">Narukara的小站</a>
         </div>
         <div class="col-md-8">
-            <form id="search">
+            <form id="nav">
+                <a href="index.html" class="nav-text">主页</a>
+                <a href="project.html" class="nav-text">项目</a>
+                <label class="dropdown">
+                    <a class="dropdown-toggle nav-text" href="#" role="button" id="dropdownMenuLink"
+                       data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">
+                        友链
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="https://roife.github.io/" target="_blank">ROIFE BLOG</a>
+                        <a class="dropdown-item" href="https://bazoka13.github.io/" target="_blank">Bazoka13的博客</a>
+                    </div>
+                </label>
                 <label><input type="text" class="form-control" placeholder="Search..."></label>
             </form>
         </div>
     </div>
+
     <div class="row">
         <div class="col-md-12">
             <div class="carousel slide" id="carousel-462346">
@@ -87,6 +97,7 @@
             </div>
         </div>
     </div>
+
     <div class="row">
         <div class="col-md-4">
             <div class="jumbotron">
@@ -94,7 +105,8 @@
                     SmartPlug
                 </h2>
                 <p>
-                    与<a href="https://github.com/Ling-YangHui" target="_blank">YangHui</a>共同开发的冯如杯项目,已经完成了基本的系统架构。
+                    与<a href="https://github.com/Ling-YangHui" target="_blank">YangHui</a>共同开发的冯如杯项目，已经完成了基本的系统架构。
+                    <br/>
                     这里可以下载最新的app。但是项目已经中止，服务器也停止运行了。app仍存有bug，但不会进一步修复了。<br/><br/>
                 </p>
                 <p>
@@ -113,7 +125,7 @@
                     Spring
                 </h2>
                 <p>
-                    我在一部古老的Nokia手机上遇到的棋类游戏。它是一款名为“米奇的世界”的游戏的附加部分，因此不知道这种棋的名字。
+                    我在一部古老的Nokia手机上遇到的不知名的棋类游戏。
                     Spring的特点在于局势的急剧变化：到游戏中后期，一枚棋子往往就能引起整个棋盘翻天覆地的变化。
                     正在开发Spring的AI，包括基于经验的、基于简单推演的，以及基于ANN的。
                 </p>
@@ -142,6 +154,7 @@
             </div>
         </div>
     </div>
+
     <div class="row">
         <div class="col-md-6">
             <table class="table">
@@ -242,15 +255,17 @@
             </form>
         </div>
     </div>
+
     <div class="row">
         <div class="col-md-12" id="footer">
             <hr/>
-            <p>友链：
-                <a href="https://roife.github.io/">ROIFE BLOG</a>,
-                <a href="https://bazoka13.github.io/">Bazoka13的博客</a>
+            <p>
+                Narukara 2020
             </p>
-            <p>Powered by <a href="https://www.layoutit.com/" target="_blank">Layoutit!</a></p>
-            <p>Using <a href="http://getbootstrap.com" target="_blank">Bootstrap</a> 4.0.0</p>
+            <p>
+                Powered by <a href="https://www.layoutit.com/" target="_blank">Layoutit!</a>,
+                Using <a href="http://getbootstrap.com" target="_blank">Bootstrap</a> 4.0.0
+            </p>
         </div>
     </div>
 </div>
