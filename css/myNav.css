@@ -3,7 +3,7 @@
     padding: 10px;
 }
 
-#myNav > a {
+#title {
     display: inline;
     margin: 0 auto auto;
     font-size: xx-large;
@@ -12,7 +12,7 @@
     font-family: "明兰", sans-serif;
 }
 
-#myNav > form {
+#search > * {
     float: right;
     margin-top: 5px;
 }
